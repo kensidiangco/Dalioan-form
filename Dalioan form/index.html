@@ -1,0 +1,134 @@
+<DOCTYPE! html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Dalioan Log in form</title>
+	<style>
+	.modal {
+		position: absolute;
+		left: 50%;
+		top: 50%; 
+		margin-left: -190px;
+		margin-top: -320px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		width: 25%;
+		border-radius: 40px;
+		border: 1px solid black;
+	}
+	input[type="text"]	{
+		width: 78%;
+		margin-top: 10px;
+		padding: 8px;
+		border: 1px solid black;
+		border-radius: 25px;
+		background-color: lightgray;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		outline: none;
+	}
+	input[type="password"]	{
+		width: 78%;
+		margin-top: 10px;
+		padding: 8px;
+		border: 1px solid black;
+		border-radius: 25px;
+		background-color: lightgray;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		outline: none;
+	}
+	.login	{
+		width: 44%;
+		color: black;
+		text-decoration: none;
+		padding: 10px;
+		background-color: lightgray;
+		border: 0;
+		border-radius: 20px;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 15px;
+		transition: all 0.5s;
+		cursor: pointer;
+	}
+	a {
+		text-decoration:none;
+		color: teal;
+	}
+	.keep	{
+		font-family: arial;
+		font-size: 14px;
+	}
+	hr.style-eight {
+		overflow: visible;
+		padding: 0;
+		border: none;
+		border-top: medium double #333;
+		color: #333;
+		text-align: center;
+	}
+	hr.style-eight:after {
+		content: "OR";
+		display: inline-block;
+		position: relative;
+		top: -0.7em;
+		font-size: 1.5em;
+		padding: 0 0.25em;
+		background: white;
+	}
+	.google {
+		width: 100px;
+		color: white;
+		text-decoration: none;
+		padding: 9px;
+		background-color: #ff3e30;
+		border: 0;
+		border-radius: 10px;
+		font-family: arial;
+		font-height: bold;
+		font-size: 15px;
+		transition: all 0.5s;
+		cursor: pointer;
+	}
+	.facebook {
+		width: 100px;
+		color: white;
+		text-decoration: none;
+		padding: 9px;
+		background-color: #3b5998;
+		border: 0;
+		border-radius: 10px;
+		font-family: arial;
+		font-height: bold;
+		font-size: 15px;
+		transition: all 0.5s;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+	<div class="modal">
+		<div class="body">
+			<div class="content"><br>
+				<center><img src="./img/stjudelogo.png" alt="st. jude college" style="width:35%"><br>
+				<p style="margin-bottom: -15px;font-family: arial;font-weight: bold;">SAINT JUDE COLLEGE<P>
+				<hr width="60%">
+				<p style="margin-top: -5px;font-family: arial;font-weight: light;font-size 15px;">PHINMA EDUCATION SYSTEM</p>
+				<form action="#">
+					<div class="container">
+						<label class="userpass">
+							<input type="text" class="text" placeholder="  Username" required><br>
+							<input type="password" placeholder="  Password" required>
+						</label><br><br><input type="submit" class="login" value="Login"><br><br>
+						<label class="keep">
+							<input type="radio" value="1">Remember me. - <a 	href="#" class="forgot">Forgot password?</a>
+						</label><br><br>
+						<hr class="style-eight" width="100%"></hr>
+						<p style="font-family: arial; margin-top: -20px;font-size: 14px;font-weight: bold;">Sign in using</p>
+						<input type="button" class="google" value="Google">
+						<input type="button" class="facebook" value="Facebook"><br><br><hr style="border: 1px solid  gray;"><br>
+						<a href="./registerform.html"><input type="button" class="login" value="Sign up">
+						</div>
+				</form><br>
+</body>
+</html>
